@@ -49,7 +49,7 @@
             $decision = "Éliminé";
         }
         ?>
-
+        <b>Note: <?php echo $moyenne;?> </b>
         <p>Décision : <?php echo $decision; ?></p>
         <p class="mention <?php echo $mentionClass; ?>">
         Mention : <?php echo $mention; ?></p>
